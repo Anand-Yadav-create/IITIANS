@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html   xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+<section class="banner d-flex justify-content-center align-item-center">
+
+<div class="text-center">
+
+<h1 class="font-weight-light mt-5">Here All coding Platforms Link</h1>
+<p class="font-italic" >This for Engineers which is pursue in B.tech from AKTU.
+Here We Provide Coding Platform.It is amaging</p>
+
+<div class="card col-md-4 offset-md-4">
+
+<button class="btn text-white mt-3"><a  href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></button>
+<button class="btn text-white mt-3"><a  href="https://leetcode.com/">Leetcode</a></button>
+<button class="btn text-white mt-3"><a  href="https://www.codechef.com/">Codechef</a></button>
+<button class="btn text-white mt-3 "><a  href="https://www.hackerrank.com/">HackerRank</a></button>
+<button class="btn text-white mt-3"><a  href="https://replit.com/">Replit</a></button>
+<button class="btn text-white mt-3 my-2"><a  href="https://codeforces.com/">CodeForces</a></button>
+
+</div>
+
+
+
+
+<button class="btn btn-lg text-white mt-3"><a  th:href="@{/}">Back</a></button>
+
+
+
+
+
+</div>
+
+  
+  </section>
+  
+</body>
+</html>

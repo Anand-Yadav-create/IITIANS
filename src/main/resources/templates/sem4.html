@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html   xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+<section class="banner d-flex justify-content-center align-item-center">
+
+<div class="text-center">
+
+<h1 class="font-weight-bold mt-5">Semester 4 Papers</h1>
+<p >This for Engineers which is pursue in B.tech from AKTU.
+Here We Provide Paper and Courses.It is amaging</p>
+
+
+<button class="btn text-white mt-3"><a  href="/img1/sem4/M4.pdf">Mathematics 4</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/sem4/Operating System.pdf">Operating System</a></button><br>
+<button class="btn text-white mt-3"><a  href="/img1/sem4/Micro Processor.pdf">Micro Processor</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/sem4/Automata.pdf">Automata</a></button><br>
+<button class="btn text-white mt-3"><a  href="/img1/sem4/Human Values.pdf">Human Values</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/sem4/Python.pdf">Python</a></button><br>
+
+
+
+
+<button class="btn btn-lg text-white mt-3"><a  th:href="@{/question}">Back</a></button>
+
+
+
+
+
+</div>
+
+  
+  </section>
+  
+</body>
+</html>

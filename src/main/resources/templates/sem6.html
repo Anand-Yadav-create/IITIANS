@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html   xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+<section class="banner d-flex justify-content-center align-item-center">
+
+<div class="text-center">
+
+<h1 class="font-weight-bold mt-5">Semester 6 Papers</h1>
+<p >This for Engineers which is pursue in B.tech from AKTU.
+Here We Provide Paper and Courses.It is amaging</p>
+
+
+<button class="btn text-white mt-3"><a  href="/img1/sem6/Computer Network.pdf">Computer Networks</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/sem6/Image Processing.pdf">Image Processing</a></button><br>
+<button class="btn text-white mt-3"><a  href="/img1/sem6/law.pdf">Constituation of Law</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/sem6/Software Engineering.pdf">Software Engineering</a></button><br>
+<button class="btn text-white mt-3"><a  href="/img1/sem6/Web Tech.pdf">Web Technology</a></button><br>
+
+
+
+
+
+<button class="btn btn-lg text-white mt-3"><a  th:href="@{/question}">Back</a></button>
+
+
+
+
+
+</div>
+
+  
+  </section>
+  
+</body>
+</html>

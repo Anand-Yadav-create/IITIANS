@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html   xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+<section class="banner d-flex justify-content-center align-item-center">
+
+<div class="text-center">
+
+<h1 class="font-weight-bold mt-5">Semester 2 Papers</h1>
+<p >This for Engineers which is pursue in B.tech from AKTU.
+Here We Provide Paper and Courses.It is amaging</p>
+
+
+
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/ENGINEERING-MATHEMATICS-I-KAS-103T-1.pdf">Mathematics 2</a></button><br>
+<button class="btn text-white mt-3"><a  href="/img1/CHEMISTRY-KAS-102-2.pdf">Chemestry</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/EMERGING-DOMAIN-IN-ELECTRONICS-ENGINEERING-KEC-101T-1.pdf">Electronics</a></button><br>
+<button class="btn text-white mt-3"><a  href="/img1/FUNDAMENTALS-OF-MECHANICAL-ENGINEERING-MECHATRONICS-KME-101T-1.pdf">Mechanical</a></button>
+<button class="btn text-white mt-3 ml-3"><a  href="/img1/EMERGING-TECHNOLOGY-FOR-ENGINEERING-KMC-102-1.pdf">Emerging Technology</a></button><br>
+
+
+
+
+<button class="btn btn-lg text-white mt-3"><a  th:href="@{/question}">Back</a></button>
+
+
+
+
+
+</div>
+
+  
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+	<section
+		class="banners d-flex justify-content-center align-item-center">
+		
+		<div class="text-center">
+
+			<h1 class="font-weight-light mt-5">Semester wise Links for Paper</h1>
+			<h3 class="text-secondary">How to score well in semester exam of b.tech</h3>
+			<p class="col-md-8 offset-md-2 bg-secondary font-italic">
+			Exam preparations for my B. Tech (Computer Science & Engineering)
+			semester exams can be both a challenging and rewarding experience.
+			Exam preparations can be both a challenging and rewarding experience.
+			As a diligent student, my approach revolves around a mix of classroom
+			learning, self-motivated study, and leveraging online resources to
+			maximize my understanding of the subjects. Here’s a glimpse into my
+			preparation routine:</p>
+
+             <div class="card col-md-4 offset-md-4">
+			<button class="btn text-white mt-3">
+				<a th:href="@{/semester/{id}(id=1)}">Semester 1</a>
+			</button>
+			<button class="btn text-white mt-3 ">
+				<a th:href="@{/semester/{id}(id=2)}">Semester 2</a>
+			</button>
+			
+			<button class="btn text-white mt-3">
+				<a th:href="@{/semester/{id}(id=3)}">Semester 3</a>
+			</button>
+			<button class="btn text-white mt-3">
+				<a th:href="@{/semester/{id}(id=4)}">Semester 4</a>
+			</button>
+			
+			<button class="btn text-white mt-3">
+				<a th:href="@{/semester/{id}(id=5)}">Semester 5</a>
+			</button>
+			<button class="btn text-white mt-3 ">
+				<a th:href="@{/semester/{id}(id=6)}">Semester 6</a>
+			</button>
+			
+			<button class="btn text-white mt-3">
+				<a th:href="@{/semester/{id}(id=7)}">Semester 7</a>
+			</button>
+			<button class="btn text-white my-3 ">
+				<a th:href="@{/semester/{id}(id=8)}">Semester 8</a>
+			</button>
+			
+			
+			</div>
+
+
+
+			<button class="btn btn-lg text-white mt-3">
+				<a th:href="@{/}">Back</a>
+			</button>
+
+
+
+
+
+		</div>
+
+
+	</section>
+
+</body>
+</html>
