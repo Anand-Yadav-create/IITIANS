@@ -67,3 +67,24 @@
 .bg-black{
 	background:black;
 }
+@media only screen and (max-width: 600px) {
+
+	.bannerpt{
+	width:100%;
+	height:300vh;
+	}
+ 
+   
+  
+}
+@media only screen and (max-width: 600px) {
+
+	.bannerqp{
+	width:100%;
+	height:250vh;
+	}
+ 
+   
+  
+}
+
